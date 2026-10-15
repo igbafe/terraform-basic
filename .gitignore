@@ -1,0 +1,38 @@
+# Terraform provider binaries and local cache (this is what caused the 813 MB push error)
+.terraform/
+**/.terraform/*
+
+# State files (can contain secrets and resource IDs)
+*.tfstate
+*.tfstate.*
+terraform.tfstate.backup
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Variable files that may hold secrets
+*.tfvars
+*.tfvars.json
+!example.tfvars
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI config files
+.terraformrc
+terraform.rc
+
+# Plan output
+*.tfplan
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Note: keep .terraform.lock.hcl committed so provider versions stay consistent
