@@ -160,6 +160,6 @@ After destroying, double-check the console (in the right region) for leftovers: 
 ## 🤝 Connect
 
 **Peter Igbafe** · Junior Web Developer → Cloud/DevOps Engineer
-🌐 [peterigbafe.vercel.app](https://peterigbafe.vercel.app) · 💻 [@peter-igbafe](https://github.com/peter-igbafe)
+🌐 [peterigbafe.vercel.app](https://igbafe-site.vercel.app/) · 💻 [@peter-igbafe](https://github.com/igbafe)
 
 ⭐ If this helped you, give the repo a star!
